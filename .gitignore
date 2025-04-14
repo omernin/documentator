@@ -1,0 +1,22 @@
+# Inside .gitignore
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+docs/
+todo.md
+# Rye specific
+.rye/
+
+# Local documentation output (optional, if you don't want to commit it)
+# docs/
+
+# Environment variables
+.env
