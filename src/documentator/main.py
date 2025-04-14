@@ -17,7 +17,7 @@ from readability import Document
 from tqdm import tqdm
 
 # --- Configuration (Defaults, can be overridden by args) ---
-DEFAULT_OUTPUT_DIR = Path("./docs")
+DEFAULT_OUTPUT_DIR = Path("./")
 DEFAULT_MAX_PAGES = 50
 DEFAULT_REQUEST_DELAY = 1.0
 DEFAULT_LLM_MODEL = "gpt-4o-mini"
